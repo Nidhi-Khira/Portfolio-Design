@@ -1,0 +1,59 @@
+
+.sidebar {
+    padding: 1rem;
+  }
+  
+  .sidebar-icons-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40%;
+  }
+  
+  .sidebar-icon {
+    height: 3.3rem;
+    width: 3.3rem;
+    margin-top: 3.3rem;
+    opacity: 0.55;
+    transition: all 0.2s;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .sidebar-icon {
+      height: 2.3rem;
+      width: 2.3rem;
+    }
+  }
+  .sidebar-home-icon {
+    width: 50%;
+    height: 50%;
+    background-color: #000;
+    border-radius: 50%;
+    width: 60px;
+    height: 57px;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .sidebar-home-icon {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .sidebar-home-icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
+  .sidebar-svg-home {
+    opacity: 1;
+    height: 4rem;
+    width: 4rem;
+    padding: 0.5rem;
+    padding-left: 5px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+  }
